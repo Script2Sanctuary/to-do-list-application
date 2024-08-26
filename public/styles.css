@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Custom CSS */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+

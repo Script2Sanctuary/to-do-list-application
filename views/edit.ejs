@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Edit Task</h1>
+
+    <!-- Form untuk mengedit tugas -->
+    <form action="/tasks/<%= task._id %>" method="POST">
+        <input type="text" name="title" value="<%= task.title %>" required>
+        <button type="submit">Update Task</button>
+    </form>
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
